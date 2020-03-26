@@ -1,0 +1,7 @@
+{
+	"name": "sample mekabu badge issuer",
+	"description": "example open badge issuer.",
+	"image": "https://github.com/mekabuko/openBadgeIssuerExample/sampleFiles/badgeImage.png",
+	"criteria": "https://github.com/mekabuko/openBadgeIssuerExample/sampleFiles/criteria.md",
+	"issuer": "https://github.com/mekabuko/openBadgeIssuerExample/sampleFiles/issuer.json"
+}
