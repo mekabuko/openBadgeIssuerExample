@@ -1,7 +1,7 @@
 {
 	"name": "sample mekabu badge issuer",
 	"description": "example open badge issuer.",
-	"image": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/sampleFiles/badgeImage.png",
-	"criteria": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/sampleFiles/criteria.md",
-	"issuer": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/sampleFiles/issuer.json"
+	"image": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleFiles/badgeImage.png",
+	"criteria": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleFiles/criteria.md",
+	"issuer": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleFiles/issuer.json"
 }
