@@ -1,7 +1,10 @@
 {
+	"type": "BadgeClass",
+	"id": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSignedFiles/BadgeClass",
 	"name": "sample signed badge Test",
 	"description": "example signed open badge issuer.",
-	"image": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSigedFiles/badgeImage.png",
-	"criteria": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSigedFiles/criteria.md",
-	"issuer": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSigedFiles/issuer.json"
+	"image": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSignedFiles/badgeImage.png",
+	"criteria": {
+		"narrative": "Students are tested on knowledge and safety, both through a paper test and a supervised performance evaluation on live equipment"
+	}
 }

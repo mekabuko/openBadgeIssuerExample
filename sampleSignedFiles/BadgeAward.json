@@ -1,14 +1,31 @@
 {
-  "uid": "a1b2c3d4e5",
+  "@context": "https://w3id.org/openbadges/v2",
+  "id": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSignedFiles/BadgeAward.json",
+  "type": "Assertion",
   "recipient": {
     "type": "email",
     "identity": "domey11.11.11@gmail.com",
     "hashed": false
   },
-  "issuedOn":  1585194520,
-  "badge": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSigedFiles/BadgeClass.json",
-  "verify": {
+  "issuedOn": "2016-12-31T23:59:59+00:00",
+  "badge": {
+    "type": "BadgeClass",
+    "id": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSignedFiles/BadgeClass",
+    "name": "sample signed badge Test",
+    "description": "example signed open badge issuer.",
+    "image": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSignedFiles/badgeImage.png",
+    "criteria": {
+      "narrative": "Students are tested on knowledge and safety, both through a paper test and a supervised performance evaluation on live equipment"
+    },
+    "issuer": {
+      "id": "https://github.com/mekabuko",
+      "type": "Profile",
+      "name": "sample mekabu badge issuer",
+      "url": "https://github.com/mekabuko"
+    }
+  },
+  "verification": {
     "type": "signed",
-    "url": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSigedFiles/public-key.pem"
+    "url": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSignedFiles/public-key.pem"
   }
 }
