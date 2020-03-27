@@ -30,7 +30,7 @@ app.get('/', function(req, res) {
 				"narrative": "Students are tested on knowledge and safety, both through a paper test and a supervised performance evaluation on live equipment"
 			},
 			"issuer": {
-				"id": "https://github.com/mekabuko",
+				"id": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSignedFiles/issuer.json",
 				"type": "Profile",
 				"name": "sample mekabu badge issuer",
 				"url": "https://github.com/mekabuko"

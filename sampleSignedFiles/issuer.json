@@ -1,5 +1,5 @@
 {
-    "id": "https://github.com/mekabuko",
+    "id": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSignedFiles/issuer.json",
     "type": "Profile",
     "name": "sample mekabu badge issuer",
     "url": "https://github.com/mekabuko"
