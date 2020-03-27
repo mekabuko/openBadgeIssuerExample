@@ -6,9 +6,9 @@
     "hashed": false
   },
   "issuedOn":  1585194520,
-  "badge": "https://github.com/mekabuko/openBadgeIssuerExample/blob/master/sampleFiles/BadgeClass.json",
+  "badge": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/blob/master/sampleFiles/BadgeClass.json",
   "verify": {
     "type": "hosted",
-    "url": "https://github.com/mekabuko/openBadgeIssuerExample/blob/master/sampleFiles/BadgeAward.json"
+    "url": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/blob/master/sampleFiles/BadgeAward.json"
   }
 }
