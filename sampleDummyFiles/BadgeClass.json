@@ -1,0 +1,7 @@
+{
+	"name": "数学研定 １級",
+	"description": "とてつもなく数学の能力が高いことを認めます。",
+	"image": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleDummyFiles/badgeImage.png",
+	"criteria": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleDummyFiles/criteria.md",
+	"issuer": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleDummyFiles/issuer.json"
+}
