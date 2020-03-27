@@ -1,6 +1,6 @@
 {
-	"name": "数学研定　１級",
-	"description": "数学の能力が素晴らしく高いことを認めます。",
+	"name": "sample mekabu badge issuer",
+	"description": "example open badge issuer.",
 	"image": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleFiles/badgeImage.png",
 	"criteria": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleFiles/criteria.md",
 	"issuer": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleFiles/issuer.json"
