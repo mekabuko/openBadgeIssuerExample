@@ -8,7 +8,7 @@ app.get('/', function(req, res) {
 	//prepare the assertion
 	var assertion = {
 		"@context": "https://w3id.org/openbadges/v2",
-		"id": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSignedFiles/BadgeAward.json",
+		"id": "urn:uuid:a953081a-4bbd-4927-9653-7219bca00e3b",
 		"type": "Assertion",
 		"recipient": {
 		  "type": "email",
@@ -16,9 +16,13 @@ app.get('/', function(req, res) {
 		  "hashed": false
 		},
 		"issuedOn": "2016-12-31T23:59:59+00:00",
+		"verification": {
+			"type": "SignedBadge",
+			"url": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSignedFiles/public-key.pem"
+		},
 		"badge": {
 			"type": "BadgeClass",
-			"id": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSignedFiles/BadgeClass",
+			"id": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSignedFiles/BadgeClass.json",
 			"name": "sample signed badge Test",
 			"description": "example signed open badge issuer.",
 			"image": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSignedFiles/badgeImage.png",
@@ -32,10 +36,6 @@ app.get('/', function(req, res) {
 				"url": "https://github.com/mekabuko"
 			}
 		},
-		"verification": {
-		  "type": "signed",
-		  "url": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleSignedFiles/public-key.pem"
-		}
 	};
 
 	//sign the assertion
