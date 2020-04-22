@@ -1,4 +1,5 @@
 {
+	"id": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleFiles2/badge/971d9541-0f91-417a-b9be-4086d92d272c/BadgeClass.json",
     "type": "BadgeClass",
 	"name": "サンプル検定 1級",
 	"description": "これはサンプルの検定試験です",
