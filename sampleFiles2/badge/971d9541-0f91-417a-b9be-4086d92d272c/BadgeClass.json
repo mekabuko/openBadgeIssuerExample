@@ -3,6 +3,6 @@
 	"name": "サンプル検定 1級",
 	"description": "これはサンプルの検定試験です",
 	"image": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleFiles2/badge/971d9541-0f91-417a-b9be-4086d92d272c/badgeImage.png",
-	"criteria": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/badge/971d9541-0f91-417a-b9be-4086d92d272c/criteria.json",
+	"criteria": "https://github.com/mekabuko?tab=projects",
 	"issuer": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleFiles2/issuer/55d27e1d-62cf-4c24-aa72-0c89bdb217c3.json"
 }
