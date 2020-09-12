@@ -1,0 +1,7 @@
+{
+	"name": "マイク口ソフト ジャパン",
+	"description": "マイク口ソフト 日本法人 資格認定組織です",
+	"image": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleFakeFiles/badgeImage.png",
+	"criteria": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleFakeFiles/criteria.md",
+	"issuer": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleFakeFiles/issuer.json"
+}

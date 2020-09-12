@@ -1,0 +1,14 @@
+{
+  "uid": "a1b2c3d4e5",
+  "recipient": {
+    "type": "email",
+    "identity": "domey11.11.11@gmail.com",
+    "hashed": false
+  },
+  "issuedOn":  1585194520,
+  "badge": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleFakeFiles/BadgeClass.json",
+  "verify": {
+    "type": "hosted",
+    "url": "https://raw.githubusercontent.com/mekabuko/openBadgeIssuerExample/master/sampleFakeFiles/BadgeAward.json"
+  }
+}
